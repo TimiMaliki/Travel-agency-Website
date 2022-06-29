@@ -4,14 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'main':'#66DAFF',
-        'second':'#069BCA',
-        'text':'#20284f',
-        'accent':'#Def3ff',
-        'white':'#F9f9f9',
-        'black':'#1c1c1c',
-        'light':'#c0c0c0',
-        'medium':'#787878',
+        'main':"#66DAFF",
+        'second':"#069BCA",
+        'text':"#20284F",
+        'accent':"#DEF3FF",
+        'white':"F9F9F9",
+        'black':"Icicic",
+        'light':"cococo",
+        'medium':"787878",
+      },
+      fontfamily:{
+        'poppins':["'poppins','sans-serif'"]
       }
     },
   },
