@@ -7,16 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Agency Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/src/index.css">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+            colors:{
+        main:'#66DAFF',
+        second:'#069BCA',
+        text:'#20284F',
+        white:'#F9f9f9',
+        black:'1c1c1c',
+      },
+        }
+      }
+    }
+  </script>
 </head>
 
-<body>
+<body> 
+    <main>
     <!--------Navbar-------->
-    <nav class="relative  container mx-auto p-3 ">
+    <nav class="relative  container mx-auto pt-12 ">
         <!-------flex----->
         <div class="flex items-center justify-between">
        <!--------Brand-------->
-            <div class="brand pt-2">
-        <h2>Maliki</h2>
+            <div class="brand pt-1">
+        <h1>Maliki</h1>
             </div>
             <!-----nav menu---->
             <div class="hidden md:flex space-x-6">
@@ -26,8 +43,11 @@
                     <a href="">Review</a>
                     <a href="">Contacts</a>
             </div>
+            <!------button------->
+            <a href="" class="p-3 px-6 pt-2 text-white bg-blue-200 rounded-full baseline">Sign in</a>
         </div>
     </nav>
+    </main>
 </body>
 
 </html>
