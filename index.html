@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Agency Website</title>
+    <!--------TAILWINDCSS-------->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!--------------CUSTOM CSS---------------->
     <link rel="stylesheet" href="./assets/src/index.css">
+    <link rel="stylesheet" href="./assets/src/utilities.css">
+    <!--------TAILWINDCSS SCRIPT------->
     <script>
     tailwind.config = {
       theme: {
@@ -24,32 +28,30 @@
     }
   </script>
 </head>
-
 <body> 
-    <main>
-   <!--------main---------->
-   <div class="h-1/2 lg:h-screen fixed bg-gradient-to-t from-white-200">
-   <!---------navbar--------->
-   <div class="w-full fixed top-0 bg-white-400">
-    <div class="container mx-auto py-5 flex justify-between  gap-4 ">
-      <div class="flex items-center gap-5 ">
-        <div class="brand bg-pink-400">
-            <h2>Maliki</h2>
-        </div>
-         <div class="navbar">
-            <ul class="hidden md:flex space-x-10">
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">DESTINATION</a></li>
-                <li><a href="">TOURS</a></li>
-                <li><a href="">REVIEWS</a></li>
-                <li><a href="">CONTACTS</a></li>
+   <!--------Header------->
+   <Header>
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">
+               <span class="Maliki">Maliki</span>  <br> TRAVEL AGENCY
+            </h1>
+            <!----------Nav--------->
+            <ul class="list-style-none">
+                <li><a href="" class="text-decorate">Home</a></li>
+                <li><a href="" class="text-decorate">About Us</a></li>
+                <li><a href="" class="text-decorate">Services</a></li>
+                <li><a href="" class="text-decorate">Pharmacy</a></li>
             </ul>
-         </div>
-      </div>
+            <h3 class="btn">Log in</h3>
+        </div>
     </div>
-   </div>
-   </div>
-</main>
+</Header>
+<!--------Header------->
+
+<!--------DISPLAY--------->
+
+<!--------DISPLAY--------->
 </body>
 
 </html>
