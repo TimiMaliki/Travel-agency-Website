@@ -12,7 +12,7 @@
 }
 body{
     width: 100%;
-    height: 140vh;
+    height: 100vh;
     background: #101010;
 }
 h1 {
@@ -21,11 +21,9 @@ h1 {
     color: #fff;
 }
 header{
-    position: fixed;
     width: 100%;
     z-index: 1000;
 }
-
 .navbar {
     height: 70px;
     background: #191919;
@@ -66,5 +64,16 @@ header{
     justify-content: center;
     text-align: center;
     align-items:center;
+}
+.adv{
+  height:180px;
+}
+.ad-t h3{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+}
+.col{
+    border:2px solid red;
 }
 
