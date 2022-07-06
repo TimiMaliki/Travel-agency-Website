@@ -61,9 +61,6 @@ header{
 }
 .cover-text h3{
     font-size: 19px;
-    justify-content: center;
-    text-align: center;
-    align-items:center;
 }
 .adv{
   height:180px;
@@ -73,7 +70,10 @@ header{
     padding: 10px;
     font-weight: 500;
 }
-.col{
+.stages{
+    height: 120vh;
+}
+.work{
     border:2px solid red;
 }
 
