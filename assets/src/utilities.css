@@ -47,6 +47,12 @@
 .m-3{
     margin: 0px 30px;
 }
+.m-4{
+    margin:10px 10px;
+}
+.m-y{
+    margin:19px;
+}
 .btn-c{
     display: inline-block;
     max-width: 100px;
