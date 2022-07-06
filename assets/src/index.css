@@ -77,6 +77,12 @@ header{
     border:2px solid red;
     height: 300px;
 }
+.span-three{
+    grid-column: span 3
+}
+.span-four{
+    grid-column: span 4
+}
 .span-two{
     grid-column: span 2
 }
