@@ -73,7 +73,11 @@ header{
 .stages{
     height: 120vh;
 }
-.work{
+.span{
     border:2px solid red;
+    height: 300px;
+}
+.span-two{
+    grid-column: span 2
 }
 
