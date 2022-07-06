@@ -89,8 +89,8 @@
 }
 .grid-four-span{
     display: grid;
-    grid-template-columns: repeat(4,100px);
-    grid-template-rows: minmax(100px, auto) repeat(5,100px);
+    grid-template-columns: repeat(4,4fr);
+    grid-template-rows: minmax(100px, auto) repeat(4,100px);
 }
 .grid-five{
     display: grid;
