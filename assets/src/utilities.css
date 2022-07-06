@@ -9,6 +9,15 @@
 .Maliki{
     color: rgb(24, 24, 212);
 }
+.w-full{
+    width: 100%;
+}
+.h-full{
+    height:100%;
+}
+.h-vh{
+    height: 100vh;
+}
 .btn{
     display: inline-block;
     padding: 10px 30px;
@@ -66,4 +75,7 @@
 .grid-five{
     display: grid;
     grid-template-columns: repeat(5, 5fr);
+}
+.primary-color{
+  color:#010101;
 }
