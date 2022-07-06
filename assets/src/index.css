@@ -12,7 +12,8 @@
 }
 body{
     width: 100%;
-    height: 100vh;
+    height: 140vh;
+    background: #101010;
 }
 h1 {
     margin: 10px 0px;
