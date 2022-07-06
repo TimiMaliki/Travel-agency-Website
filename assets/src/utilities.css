@@ -31,6 +31,7 @@
 .justitfy-content{
     justify-content: center;
     text-align: center;
+    align-items:center;
 }
 .text-decorate{
     text-decoration: none;
@@ -77,6 +78,10 @@
     border-radius: 5px;
     color: #fff;
     box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.grid-two{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
 }
 .grid-four{
     display: grid;
