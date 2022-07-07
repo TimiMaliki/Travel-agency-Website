@@ -54,6 +54,9 @@
 .m-y{
     margin:19px;
 }
+.m-y-1{
+    margin:75px 30px;
+}
 .btn-c{
     display: inline-block;
     max-width: 100px;
