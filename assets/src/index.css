@@ -85,6 +85,9 @@ header{
 .span-two{
     grid-column: span 2
 }
+.span-one{
+    grid-column: span 1
+}
 .free{
     height: 100vh;
 }
