@@ -51,11 +51,17 @@
 .m-4{
     margin:10px 10px;
 }
+.m-x{
+    margin-left: -80px;
+}
 .m-y{
     margin:19px;
 }
 .m-y-1{
     margin:75px 30px;
+}
+.m-y-2{
+    margin: 75px;
 }
 .btn-c{
     display: inline-block;
@@ -81,6 +87,12 @@
     border-radius: 5px;
     color: #fff;
     box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.grid-gap{
+    grid-gap:1rem;
+}
+.grid-gap-two{
+    grid-gap:1rem;
 }
 .grid-two{
     display: grid;
