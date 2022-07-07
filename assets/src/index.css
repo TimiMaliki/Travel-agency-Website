@@ -95,7 +95,6 @@ form{
     position: absolute;
     padding: 25px;
     line-height: 30px;
-    
 }
 .form input{
     width: 290px;
@@ -106,6 +105,9 @@ form{
 }
 .form input:hover{
     border: 2px solid #89CFF0;
+}
+.free-col-one{
+    border: 2px solid red;
 }
 
 
