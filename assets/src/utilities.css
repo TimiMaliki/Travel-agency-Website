@@ -99,6 +99,10 @@
     display: grid;
     grid-template-columns: repeat(5, 5fr);
 }
+.grid-six{
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+}
 .primary-color{
   color:#010101;
 }
