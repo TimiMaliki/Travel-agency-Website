@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.hero{
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url("../assets/pics/img5.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+ }
+html, body{
+    scroll-behaviour:smooth;
+}
+.left-50{
+  left:50%;
+}
+.right-50{
+  left:50%;
+}
+.top-50{
+  left:50%;
+}
+.nav-doth{
+    transition:
+}
+.nav-doth:hover span{
+  opacity:1;
+}
