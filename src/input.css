@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .hero{
-    height: 90vh;
+    height: 100vh;
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../assets/pics/img5.jpg");
     background-position: center;
     background-size:cover;
@@ -11,7 +11,18 @@
 html, body{
     scroll-behaviour:smooth;
 }
-.button{
-  margin-left: 30px;
-  transform:translateY(-30px)
+@media(max-width:324px){
+  h1{
+    color:blue;
+  }
+  .button{
+    margin-left: 20px;
+    transform:translateY(-50px);
+  }
+}
+@media(min-width:534px){
+  .txt{
+    transform:translateY(80px)
+  }
+  
 }
