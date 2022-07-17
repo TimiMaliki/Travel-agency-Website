@@ -12,15 +12,18 @@ html, body{
     scroll-behaviour:smooth;
 }
 @media(max-width:324px){
-  h1{
-    color:blue;
-  }
   .button{
     margin-left: 20px;
     transform:translateY(-50px);
   }
 }
-@media(min-width:534px){
+@media(min-width:704px){
+  .button{
+    margin-left: 40px;
+    transform:translateY(30px);
+  }
+}
+@media(min-width:504px){
   .txt{
     transform:translateY(80px)
   }
