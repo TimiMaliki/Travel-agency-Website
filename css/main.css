@@ -600,6 +600,10 @@ video {
   margin: 2.5rem;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1090,6 +1094,10 @@ html, body{
 }
 
 @media (min-width: 1024px) {
+  .lg\:w-1\/5 {
+    width: 20%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
