@@ -694,6 +694,10 @@ video {
   flex-direction: column-reverse;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -728,6 +732,10 @@ video {
 
 .gap-0 {
   gap: 0px;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .space-x-12 > :not([hidden]) ~ :not([hidden]) {
