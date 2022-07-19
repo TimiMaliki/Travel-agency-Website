@@ -3,3 +3,7 @@ node_modules/*
 
 dist
 build
+/dist
+dist
+.parcel-cache
+*.db
