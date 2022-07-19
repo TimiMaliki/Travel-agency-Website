@@ -21,7 +21,7 @@
                 <h2 class="4xl-text  text-blue-200 font-bold">Maliki</h2>
             </div>
             <!----menu items-->
-            <div class="md:flex hidden space-x-12   items-center">
+            <div class="md:flex hidden space-x-12  items-center" id="navmenu">
                 <a href="" class="2xl-text text-white">Home</a>
                 <a href="" class="2xl-text text-white">Places</a>
                 <a href="" class="2xl-text text-white">Flights</a>
@@ -29,9 +29,18 @@
                 <a href="" class="2xl-text text-white">Contacts</a>
             </div>
             <!---button-->
-            <a href="" class="p-3 px-6 pt-2  bg-blue-700 text-white rounded-full baseline">Sign in</a>
+            <a href="" class="p-3 px-6 pt-2 hidden bg-blue-700 text-white rounded-full baseline">Sign in</a>
+            <!--hamburger span-->
+               <button id="menu-btn block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+               </button>
         </div>
-
+     <!--hamburger mobile--->
+     <div class="md:hidden">
+        <div id="menu" class="absolute"></div>
+     </div>
     </nav>
     <!-----nav wrapper--->
 
@@ -326,7 +335,10 @@
 </section>
     <!---- places -->
 
-
+ <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+ crossorigin="anonymous"></script>
 </body>
 
 </html
