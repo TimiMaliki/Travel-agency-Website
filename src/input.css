@@ -11,10 +11,6 @@
 html, body{
     scroll-behaviour:smooth;
 }
-.omo, img{
-  width:300px;
-  height:400px
-}
 .hamburger{
   cursor:pointer;
   width:24px;
