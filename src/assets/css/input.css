@@ -3,13 +3,17 @@
 @tailwind utilities;
 .hero{
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../assets/pics/main.jpg");
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../pics/main.jpg");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
  }
 html, body{
     scroll-behaviour:smooth;
+}
+.omo, img{
+  width:300px;
+  height:400px
 }
 .hamburger{
   cursor:pointer;
@@ -26,6 +30,7 @@ html, body{
    left:0;
    width:24px;
    height:2px;
+   background: blue;
 }
 .hamburger-middle{
   transform: translateY(7px);
