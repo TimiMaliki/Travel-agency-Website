@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 .video__container{
     padding-bottom:1rem;
 }
@@ -23,6 +27,8 @@
 .video-button{
     background: rgb(42, 42, 230);
 }
+
+
 @media screen and (min-width:309px){
     .video__button{
         transform:translateX(150px);
