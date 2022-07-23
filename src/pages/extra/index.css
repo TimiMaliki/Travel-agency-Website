@@ -3,17 +3,24 @@
 }
 .video__description{
     text-align:center;
-    margin-bottom:25px;
+    margin-bottom:2.5rem;
 }
 .video__content{
     position:relative;
 }
 .video__button{
     position:absolute;
-    right: 1rem;
+    right: 3rem;
     bottom:-1rem;
-    padding: 1rem 1.5rem;
+    padding: 7px;
+    border:none;
 }
 .video__button-icon{
-    font-size: 2rem;
+    font-size: 2rem; 
+    display: flex;
 }
+
+.button{
+    background: rgb(42, 42, 230);
+}
+
