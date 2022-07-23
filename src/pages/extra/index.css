@@ -28,6 +28,11 @@
         transform:translateX(150px);
     }
 }
+@media screen and (min-width:409px){
+    .video__button{
+        transform:translateX(150px);
+    }
+}
 @media screen and (min-width:569px){
     .video__button{
         transform:translateX(-270px);
