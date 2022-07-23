@@ -69,6 +69,10 @@
     width: 200px;
     height:45px;
     border-radius:50px;
+    background:rgb(70, 70, 214);
+}
+.btn:hover{
+    background:blue;
 }
 @media screen and (min-width:309px){
     .video__button{
