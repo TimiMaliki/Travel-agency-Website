@@ -74,9 +74,22 @@
 .btn:hover{
     background:blue;
 }
-@media screen and (min-width:309px){
+@media screen and (max-width:321px){
     .video__button{
-        transform:translateX(150px);
+        transform:translateX(390px);
+    }
+}
+@media screen and (max-width:390px) and (max-width:400px) {
+    .tour-search-form{
+        display:grid;
+    }
+    .tour-search-form .input-wrapper{
+        margin:0px 60px;
+    }
+    .tour-search .btn{
+       width:200px;
+        margin-top:20px;
+        transform: translateX(70px);
     }
 }
 @media screen and (min-width:409px){
@@ -93,6 +106,7 @@
         grid-template-columns:1fr 1fr;
         align-items:flex-end;
         gap:15px;
+    
     }
     .tour-search-form .input-wrapper{
         margin-bottom:0;
@@ -103,7 +117,6 @@
     .tour-search .btn{
         grid-column:span 2;
         margin-top:20px;
-        transform: translateX(380px);
     }
 
 }
