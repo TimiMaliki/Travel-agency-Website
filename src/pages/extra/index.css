@@ -14,7 +14,7 @@
 }
 .video__button{
     position:absolute;
-    right: 3rem;
+    left: 4rem;
     bottom:-1rem;
     padding: 7px;
     border:none;
@@ -74,12 +74,31 @@
 .btn:hover{
     background:blue;
 }
-@media screen and (max-width:321px){
+/* this the media for the video section for various difference*/
+
+
+/* for small devices*/
+/* for video */
+@media screen and (min-width:359px){
     .video__button{
-        transform:translateX(390px);
+        transform:translateX(340px);
     }
 }
-@media screen and (max-width:390px) and (max-width:400px) {
+/* for tour*/
+@media screen and (max-width:390px){
+    .tour-search-form{
+        display:grid;
+    }
+    .tour-search-form .input-wrapper{
+        margin:0px 60px;
+    }
+    .tour-search .btn{
+       width:200px;
+        margin-top:20px;
+        transform: translateX(70px);
+    }
+}
+@media screen and (max-width:400px) {
     .tour-search-form{
         display:grid;
     }
@@ -97,6 +116,14 @@
         transform:translateX(150px);
     }
 }
+/* for medium video*/
+
+/* for video*/
+@media screen and (max-width:580px){
+    .video__button{
+        transform:translateX(140px);
+    }
+ }
 @media screen and (min-width:580px){
     .video__button{
         transform:translateX(-270px);
