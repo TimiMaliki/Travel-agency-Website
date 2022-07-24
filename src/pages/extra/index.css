@@ -181,6 +181,11 @@
         margin-right:400px;
         z-index:10000px;
     }
+    .tour-search .btn{
+        grid-column:span 2;
+        margin-top:20px;
+        transform:translateX(240px);
+    }
 }
 @media screen and (max-width:1020px){
     .video__button{
