@@ -968,7 +968,7 @@ nav{
 
 .hero{
   height: 100vh;
-  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../assets/pics/main.jpg");
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../pics/main.jpg");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
