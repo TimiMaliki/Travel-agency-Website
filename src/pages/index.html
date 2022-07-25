@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Agency Website</title>
-     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/input.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
 </head>
 <!---So i added a dark mode here-->
 
@@ -73,9 +74,16 @@
                         <h3 class="hidden mb-4 text-lg text-white font-bold md:block">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit
                         </h3>
-                        <p class="text-white">
-                            <img src="../assets/pics/img2.jpg" alt="" class="bg-cover bg-center">
-                        </p>
+                        <div class="video__container container">
+                            <div class="video__content">
+                                <video id="video-file" width="300" height="300">
+                                    <source src="../assets/pics/videos/vid1.mp4" type="video/mp4">
+                                </video>
+                                <button class="button button--flex video__button" id="video-button">
+                                    <i class="ri-play-circle-fill video__button-icon" id="video-icon"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -245,12 +253,12 @@
     </section>
     <!---- Services -->
 
-  <!-- places -->
-  <include src="components/places.html"></include>
+    <!-- places -->
+    <include src="components/places.html"></include>
 
- <!-- header -->
- <include src="components/footer.html"></include>
- <!-- /header -->
+    <!-- header -->
+    <include src="components/footer.html"></include>
+    <!-- /header -->
 
     <!---custom javascript---->
     <script src="../index.js"></script>
