@@ -14,14 +14,15 @@
 }
 .video__button{
     position:absolute;
-    left: 4rem;
+    left: 2rem;
     bottom:-1rem;
     padding: 7px;
     border:none;
 }
 .video__button-icon{
-    font-size: 2rem; 
+    font-size: 3rem; 
     display: flex;
+    color:blue;
 }
 
 .video-button{
