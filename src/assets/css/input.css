@@ -51,9 +51,6 @@ html, body{
 .open .hamburger-middle{
   display: none;
 }
-.button{
-  transform:translateX(-350px);
-}
 @media(max-width:324px){
   .button{
     margin-left: 20px;
