@@ -55,6 +55,7 @@ html, body{
   .button{
     margin-left: 20px;
     transform:translateY(-50px);
+    background:yellow;
   }
 }
 @media(min-width:704px){
