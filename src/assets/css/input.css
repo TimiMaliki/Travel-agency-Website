@@ -15,6 +15,7 @@ html, body{
   width:300px;
   height:400px
 }
+/*=============== Hamburger ===============*/
 .hamburger{
   cursor:pointer;
   width:24px;
@@ -51,12 +52,26 @@ html, body{
 .open .hamburger-middle{
   display: none;
 }
+.explore{
+  transform:translateX(30px);
+}
+/*=============== VIDEO ===============*/
+.video__content {
+  position: relative;
+}
+
+.video__button {
+  position: absolute;
+  right: 1rem;
+  bottom: -1rem;
+  padding: 1rem 1.5rem;
+}
+
+.video__button-icon {
+  font-size: 1.2rem;
+}
 @media(max-width:324px){
-  .button{
-    margin-left: 20px;
-    transform:translateY(-50px);
-    background:yellow;
-  }
+  
 }
 @media(min-width:704px){
   .button{
