@@ -8,7 +8,7 @@ btn.addEventListener('click', () =>{
 });
 
 /*==================== VIDEO ====================*/
-const videoFile = document.getElementById('video-file'),
+const videoFile = document.getElementById('video-file')
       videoButton = document.getElementById('video-button'),
       videoIcon = document.getElementById('video-icon')
 
@@ -38,3 +38,4 @@ function finalVideo(){
 }
 // ended, when the video ends
 videoFile.addEventListener('ended', finalVideo)
+
