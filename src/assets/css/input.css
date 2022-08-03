@@ -3,7 +3,7 @@
 @tailwind utilities;
 .hero{
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../pics/gate.jpg");
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../pics/mount.jpg");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -54,6 +54,21 @@ html, body{
 }
 .explore{
   transform:translateX(30px);
+}
+/*=============== VIDEO ===============*/
+.video__content {
+  position: relative;
+}
+
+.video__button {
+  position: absolute;
+  right: 1rem;
+  bottom: -1rem;
+  padding: 1rem 1.5rem;
+}
+
+.video__button-icon {
+  font-size: 1.2rem;
 }
 @media(max-width:324px){
   
