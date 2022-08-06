@@ -49,44 +49,7 @@
 .video-button{
     background: rgb(42, 42, 230);
 }
-.tour-search{
-    background:blue;
-    padding-block: 20px;
-}
-.tour-search-form .input-label{
-    color:#fff;
-    font-size:20px;
-    margin-left:20px;
-    margin-block:10px;
-}
-.tour-search-form .input-field{
-    background:#fff;
-    padding:10px 15px;
-    font-size:18px;
-    border-radius:50px;
-}
-#checkin{
-    width:190px;
-}
-#checkout{
-    width:190px;
-}
-.tour-search-form .input-field::placeholder{
-    color:grey;
-}
-.tour-search-form .input-field::-webkit-datetime-edit{
-    color:grey;
-    text-transform:uppercase;
-}
-.tour-search-form .input-wrapper{
-    margin-bottom:15px;
-}
-.tour-search .btn{
-    width:100%;
-    border-width: 1px;
-    font-weight:600;
-    margin-top:35px;
-}
+
 .btn{
     width: 200px;
     height:45px;
