@@ -50,26 +50,6 @@
     background: rgb(42, 42, 230);
 }
 
-.btn{
-    width: 200px;
-    height:45px;
-    border-radius:50px;
-    background:rgb(70, 70, 214);
-}
-.btn:hover{
-    background:blue;
-}
-/*=========Read More=========*/
-.read{
-    color:blue;
-    font-weight: 500;
-    text-align: center;
-    background:#f3f3f3;
-    border-radius: 7px;
-}
-.read:hover{
-    background:aqua;
-}
 /*=============== FOOTER ===============*/
 .footer__container {
     row-gap: 5rem;
@@ -136,35 +116,6 @@
   .footer__terms-link:hover {
     color: var(--text-color);
   }
-  
-  /*========== SCROLL UP ==========*/
-  .scrollup {
-    position: fixed;
-    right: 1rem;
-    bottom: -20%;
-    background-color: var(--first-color);
-    padding: .5rem;
-    display: flex;
-    opacity: .9;
-    z-index: var(--z-tooltip);
-    transition: .4s;
-  }
-  
-  .scrollup:hover {
-    background-color: var(--first-color-alt);
-    opacity: 1;
-  }
-  
-  .scrollup__icon {
-    color: var(--white-color);
-    font-size: 1.2rem;
-  }
-  
-  /* Show scroll */
-  .show-scroll {
-    bottom: 5rem;
-  }
-  
   /*=============== SCROLL BAR ===============*/
   ::-webkit-scrollbar {
     width: .60rem;
@@ -189,35 +140,6 @@
         transform:translateX(340px);
     }
 }
-/* for tour*/
-@media screen and (max-width:390px){
-    .tour-search-form{
-        display:grid;
-    }
-    .tour-search-form .input-wrapper{
-        margin:0px 60px;
-    }
-    .tour-search .btn{
-       width:200px;
-        margin-top:20px;
-        transform: translateX(70px);
-    }
-}
-@media screen and (max-width:400px) {
-    .tour-search-form{
-        display:grid;
-    }
-    .tour-search-form .input-wrapper{
-        margin:0px 60px;
-    }
-    .tour-search .btn{
-       width:200px;
-        margin-top:20px;
-        transform: translateX(70px);
-    }
-}
-/* for medium video*/
-
 /* for video*/
 @media screen and (max-width:580px){
     .video__button{
@@ -228,24 +150,6 @@
     .video__button{
         transform:translateX(-270px);
     }
-    .tour-search-form{
-        display:grid;
-        grid-template-columns:1fr 1fr;
-        align-items:flex-end;
-        gap:15px;
-    
-    }
-    .tour-search-form .input-wrapper{
-        margin-bottom:0;
-    }
-    .tour-search-form .input-field{
-        padding:16px 20px;
-    }
-    .tour-search .btn{
-        grid-column:span 2;
-        margin-top:20px;
-    }
-
 }
 @media screen and (min-width:609px){
     .video__button{
@@ -269,16 +173,6 @@
     }
 
 }
-@media screen and (min-width:900px){
-.tour-search-form{
-    grid-template-columns: repeat(4,1fr);
-}
-.tour-search .btn{
-    padding:15px;
-    grid-column: unset;
-    margin-top:0;
-}
-}
 @media screen and (max-width:900px){
     .video__button{
         margin-right:360px;
@@ -290,14 +184,6 @@
         margin-right:400px;
         z-index:10000px;
     }
-    .tour-search .btn{
-        grid-column:span 2;
-        margin-top:20px;
-        transform:translateX(240px);
-    }
-    .footer__content {
-        justify-items: center;
-      }
 }
 @media screen and (max-width:1020px){
     .video__button{
