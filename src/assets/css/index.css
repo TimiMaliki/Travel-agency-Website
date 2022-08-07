@@ -226,7 +226,8 @@
 /* for video */
 @media screen and (min-width:320px){
     .video__button{
-        transform:translateX(40px);
+        transform:translateX( -340px);
+
     }
 }
 @media screen and (min-width:359px){
