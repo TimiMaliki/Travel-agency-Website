@@ -45,7 +45,7 @@ var swiper = new Swiper(".discover__container",{
     
   },
 }); 
-
+/*
 const videoFile = document.getElementById('video-file')
  videoButton = document.getElementById('video-button'),
  videoIcon = document.getElementById('video-icon')
@@ -68,6 +68,8 @@ const videoFile = document.getElementById('video-file')
     videoIcon.classList.add('ri-play-circle-fill')
   }
   videoFile.addEventListener('ended',finalVideo)
+
+  */
 
   //Scroll
   function scrollUp(){

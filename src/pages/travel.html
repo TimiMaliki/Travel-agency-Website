@@ -17,9 +17,6 @@
     <link rel="stylesheet" href="../assets/css/travel.css">
 </head>
 <body>
-<!-- header -->
-<include src="components/header.html"></include>
-<!-- /header -->
 
  <!---=============Home==============-->
  <section class="home" id="home">
@@ -162,13 +159,17 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Commodi rerum quibusdam aspernatur dolores.
             </p>
-            <div class="video__content">
-                <video  id="video-file">
-                    <source src="../assets/pics/videos/travelsvids/pexels-mikhail-nilov-6503161.mp4" type="video/mp4">
-                </video>
-                <button class="button button--flex video__button"  id="video-button"></button>
-             <!-----bug-->
-             <i class="ri-play-circle-fill video__button-icon" id="video-icon"></i>
+            <div class="video__container ">
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="../assets/pics/videos/vid1.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
             </div>
         </div>
      </section>
@@ -251,7 +252,25 @@
                     <i class="ri-arrow-right-fill"></i>
                 </button>
             </div>
-                 <!------===========place card five=============-->
+                 <!------===========place card four=============-->
+                 <div class="place__card">
+                     <img src="../assets/pics/travelspic/T12.jpg" alt="" width="150" height="50" class="place__img">
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-fill place__rating-icon"></i>
+                        <span class="place__rating-number">4.9</span>
+                    </span>
+                     <div class="place__data">
+                         <h3 class="place__title">Bali</h3>
+                         <span class="place__subtitle">Dubai</span>
+                         <span class="place__price">$2359</span>
+                     </div>
+                </div>
+                <button class="button button--flex place__button">
+                    <i class="ri-arrow-right-fill"></i>
+                </button>
+            </div>
+                 <!------===========place card six=============-->
                  <div class="place__card">
                      <img src="../assets/pics/travelspic/T12.jpg" alt="" width="150" height="50" class="place__img">
                 <div class="place__content">
@@ -290,81 +309,9 @@
             </div>
             <!------===========Subscribe=============-->
 
-      <!----========== footer ===========-->
-      <div class="footer section">
-          <div class="footer__container container grid">
-              <div class="footer__content grid">
-                  <div class="footer__data">
-                      <h3 class="footer__title">Travel</h3>
-                      <p class="footer__description">Lorem, ipsum dolor sit amet consectetur
-                           adipisicing elit.</p>
-                           <div>
-                               <a href="https://wwww.facebook.com" target="_blank" class="footer__social">
-                                <i class="ri-facebook-circle-line"></i>
-                               </a>
-                               <a href="https://wwww.instagram.com" target="_blank" class="footer__social">
-                                <i class="ri-instagram-line"></i>
-                               </a>
-                               <a href="https://wwww.linkedin.com" target="_blank" class="footer__social">
-                                <i class="ri-linkedin-box-fill"></i>
-                               </a>
-                               <a href="https://wwww.twitter.com" target="_blank" class="footer__social">
-                                <i class="ri-twitter-line"></i>
-                               </a>
-                           </div>
-                  </div>
-                  <div class="footer__data">
-                      <h3 class="footer__subtitle">Support</h3>
-                      <ul>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">FAQs
-                              </a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">Support center</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">contact us</a>
-                          </li>
-                      </ul>
-                  </div>
-
-                  <div class="footer__data">
-                      <h3 class="footer__subtitle">Company</h3>
-                      <ul>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">Team</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">Plan your pricing</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">Become a member</a>
-                          </li>
-                      </ul>
-                  </div>
-
-                  <div class="footer__data">
-                      <h3 class="footer__subtitle">About</h3>
-                      <ul>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">Features</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">News & Blog</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="#" class="footer__link">NeW development</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="footer__rights">
-                  <p class="footer__copy">&#169;2022 Maliki.All rights reserved.</p>
-              </div>
-          </div>
-      </div>
-      <!----========== footer ===========-->
+       <!-- footer -->
+    <include src="components/footer.html"></include>
+    <!-- footer -->
     
       <!--============ scroll up ============-->
       <a href="#" class="scrollup" id="scroll-up">
@@ -385,6 +332,10 @@
     <script src="../assets/Js/main.js">
 
     </script>
+    <script src ="../index.js">
+
+    </script>
+
     <!--====main js=====-->
 </body>
 </html>
